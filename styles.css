@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f2f1; /* Fond clair */
+    color: #004d40; /* Couleur du texte */
+}
+
+#app-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#tuner-section {
+    text-align: center;
+}
+
+#tuner-canvas {
+    border: 1px solid #004d40;
+    margin-bottom: 10px;
+}
+
+#frequency-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.switch-button {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.switch-button.active {
+    background-color: #00796b;
+}
+
+.switch-button .switch-status {
+    font-weight: bold;
+}
